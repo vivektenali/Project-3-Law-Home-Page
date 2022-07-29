@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&family=Ibarra+Real+Nova:ital,wght@1,500&family=Josefin+Sans:wght@200;400&family=Montserrat:ital,wght@0,500;1,400;1,500;1,600&family=Noto+Sans:wght@700&family=Oswald:wght@300;500;700&family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&family=Ibarra+Real+Nova:ital,wght@1,500&family=Josefin+Sans:wght@200;400&family=Kanit:wght@200&family=Montserrat:ital,wght@0,500;1,400;1,500;1,600&family=Noto+Sans:wght@700&family=Oswald:wght@300;500;700&family=Work+Sans:wght@500&display=swap');
+
+
+img[src="./assets/white-logo.png"]{
+   color: #CAD5E2;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+
+body{
+    padding: 0px 0px;
+    outline: 0px;
+    left: 0;
+    right: 0;
+    height: 100vh;
+   width: 100vw;
+   background-color: #2B2922;
+}
+
+
+.Header{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+
+.list{
+    color: aliceblue;
+    font-size: 18px;
+    font-style: bold;
+    display: flex;
+    margin-top: 38px;
+    margin-left: 320px;
+}
+
+.list-items{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 28px;
+     color:#CAD5E2;
+     font-family: Kanit;
+}
+
+
+.list-items:hover{
+    color: blanchedalmond;
+    font-size: 22px;
+    
+}
+
+
+.button{
+    background-color: Transparent;
+    font-size: medium;
+    color: #869060;
+    height: 48px;
+    width: 160px;
+    margin-left: 90px;
+    margin-top: 15px;
+    border-color: aliceblue;
+    border: 2px solid #869060;
+    border-radius: 19px;
+  
+}
+
+
+.court{
+    height: 500px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 40px;
+  
+}
+
+.left{
+    font-family: Oswald;
+    font-size: 30px;
+    color: aliceblue; 
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 70px;
+    
+}
+
+
+.right{
+    
+    font-size: 22px;
+    color: aliceblue; 
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 240px;
+    font-family: Kanit;
+   
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    
+}
+
